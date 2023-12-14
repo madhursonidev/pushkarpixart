@@ -31,3 +31,33 @@ body {
     transform: translateY(-10px);
   }
 }
+.carousel-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+/* Adjust the width and positioning of the carousel items */
+.carousel-item {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+/* Ensure the client photos fit within the container */
+.client-photo {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Responsive adjustments for mobile screens */
+@media screen and (max-width: 640px) {
+  .carousel-item {
+    flex-direction: column;
+  }
+
+  .client-photo {
+    margin: 20px 0;
+  }
+}
