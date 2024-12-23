@@ -31,16 +31,30 @@ const InteractiveFooter = () => {
   };
 
   return (
-    <footer className="bg-gradient-to-r from-gray-900 to-gray-800 text-white relative overflow-hidden">
+    <footer className="relative overflow-hidden">
       {/* Main Footer Content */}
       <div className="container mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-4 gap-8">
         {/* Column 1: About Us */}
         <div>
           <h3 className="text-xl font-bold mb-4">About Us</h3>
           <p className="text-gray-400 text-sm mb-6">
-            We are a creative production company dedicated to bringing your
-            stories to life with professionalism and creativity. Let’s create
-            something amazing together.
+            Pushkar PixArt is one of India's premier production houses, offering
+            a diverse range of photography and cinematography services. Based in
+            Indore, India, we cater to a wide array of projects, including
+            weddings, corporate events, commercials, documentaries, music
+            videos, and more.
+            <br />
+            <br />
+            Our team comprises passionate and dedicated media professionals who
+            excel in capturing moments with creativity and precision. Whether
+            it's the grandeur of an Indian wedding, the dynamic energy of a live
+            event, or the compelling narrative of a documentary, we bring
+            unmatched professionalism and artistry to every project.
+            <br />
+            <br />
+            At Pushkar PixArt, we specialize in creating captivating visuals
+            through candid photography and cinematic storytelling, ensuring
+            every frame resonates with elegance and emotion.
           </p>
           <div className="flex space-x-4">
             <a

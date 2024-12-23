@@ -50,33 +50,12 @@ const teamMembers = [
 ];
 
 const OurTeam = () => {
-  const containerRef = useRef(null);
   useSmoothScroll();
 
-  const { scrollYProgress } = useScroll({
-    target: containerRef,
-    offset: ["start start", "end end"],
-  });
-
-  const backgroundY = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
-
   return (
-    <div
-      ref={containerRef}
-      className="relative bg-gradient-to-b_ from-indigo-900_ to-purple-900_ pt-20"
-    >
-      <motion.div
-        className="absolute inset-0 opacity-10"
-        style={{
-          backgroundImage:
-            "url('https://images.unsplash.com/photo-1486916856992-e4db22c8df33')",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          y: backgroundY,
-        }}
-      />
+    <div className="relative">
       <motion.h1
-        className="text-5xl font-bold text-center text-indigo-100 pt-20 sticky top-0 z-10 bg-gradient-to-b from-indigo-900 to-transparent pb-32"
+        className="text-5xl font-bold text-center text-indigo-100 pt-20 sticky top-20 z-10 bg-gradient-to-b from-indigo-900 to-transparent pb-32"
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
@@ -87,15 +66,15 @@ const OurTeam = () => {
         <TeamMember key={member.name} {...member} index={index} />
       ))}
       {/* <nav className="fixed top-1/2 right-4 transform -translate-y-1/2 z-20">
-        {teamMembers.map((_, index) => (
-          <a
-            key={index}
-            href={`#team-member-${index}`}
-            className="block w-3 h-3 mb-4 bg-indigo-400 rounded-full hover:bg-indigo-200 transition-colors duration-200"
-            aria-label={`Go to team member ${index + 1}`}
-          />
-        ))}
-      </nav> */}
+          {teamMembers.map((_, index) => (
+            <a
+              key={index}
+              href={`#team-member-${index}`}
+              className="block w-3 h-3 mb-4 bg-indigo-400 rounded-full hover:bg-indigo-200 transition-colors duration-200"
+              aria-label={`Go to team member ${index + 1}`}
+            />
+          ))}
+        </nav> */}
     </div>
   );
 };

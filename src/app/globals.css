@@ -8,6 +8,22 @@
   --background-end-rgb: 0, 0, 0;
 }
 
+html {
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 12px;
+  }
+}
+
 * {
   min-width: 0;
 }

@@ -61,6 +61,14 @@ const TestimonialSection = () => {
 
   return (
     <section className="testimonial-section bg-gradient-to-r from-gray-900 to-gray-800 text-white relative overflow-hidden">
+      <h2
+        className="text-5xl font-bold text-center pt-20"
+        initial={{ opacity: 0, y: -50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5 }}
+      >
+        Testimonial
+      </h2>
       <Swiper
         modules={[Pagination, Autoplay]}
         spaceBetween={50}
@@ -70,7 +78,7 @@ const TestimonialSection = () => {
       >
         {testimonials.map((testimonial, index) => (
           <SwiperSlide key={index}>
-            <div className="testimonial-wrapper flex flex-col md:flex-row items-center justify-center min-h-screen space-y-6 md:space-y-0">
+            <div className="testimonial-wrapper flex flex-col md:flex-row items-center justify-center h-[50dvh] space-y-6 md:space-y-0">
               {/* Client Picture */}
               <div className="client-picture relative flex-shrink-0">
                 <img
