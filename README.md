@@ -1,8 +1,14 @@
-# pushkar pixArt
+# Pushkar PixArt
 
-## Getting Started
+## Installation Guide
 
-First, run the development server:
+### First install dependency
+
+```bash
+npm install
+```
+
+### To Run Project in developer mode
 
 ```bash
 npm run dev
