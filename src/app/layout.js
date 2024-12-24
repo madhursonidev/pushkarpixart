@@ -28,12 +28,11 @@ export const metadata = {
     description:
       "Pushkar PixArt captures stunning visuals for weddings, corporate events, and creative projects with unparalleled precision and creativity.",
     url: "https://pushkarpixart.vercel.app",
+    type: "website",
     siteName: "Pushkar PixArt",
     images: [
       {
-        url: "https://scontent.fbom38-1.fna.fbcdn.net/v/t39.30808-6/449398493_991352379669760_7022693162507758414_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=k0f_JjQKrpkQ7kNvgEcssdX&_nc_zt=23&_nc_ht=scontent.fbom38-1.fna&_nc_gid=A-98nQEOuv-7I4zyDykYgER&oh=00_AYAIpsYqTLEg9rdoNAYgyWuc54qMzcfZLy7jEox6WxVdFg&oe=676E1B8A",
-        width: 1200,
-        height: 630,
+        url: "https://pushkarpixart.vercel.app/og-image.jpg",
         alt: "Pushkar PixArt - Crafting Stories Through Lenses",
       },
     ],
@@ -45,7 +44,7 @@ export const metadata = {
     title: "Pushkar PixArt | Professional Photography & Cinematography",
     description:
       "Explore Pushkar PixArt, a leading production house specializing in photography and cinematography services for weddings, corporate events, and documentaries.",
-    images: ["https://pushkarpixart.vercel.app/apple-touch-icon.png"],
+    images: ["https://pushkarpixart.vercel.app/og-image.jpg"],
   },
   icons: {
     icon: "/favicon.ico",
