@@ -32,13 +32,14 @@ img {
 /* ============ Full Page Slider ================= */
 .creative-photography--slider {
   background-color: #121212;
-  padding: 0px 100px 100px 0px;
+  padding: 0px 4rem 4rem 0px;
   position: relative;
 }
 .photography-slider--item {
+  padding-top: 1rem;
   position: relative;
   overflow: hidden;
-  height: calc(100vh - 100px);
+  height: calc(100vh - 5rem);
 }
 .photography-slider--layer {
   position: absolute;
@@ -53,7 +54,7 @@ img {
 .photography-slider--content {
   position: relative;
   height: 100%;
-  margin-top: 100px;
+  margin-top: 4rem;
 }
 .photography-slider--content .photography-slider--image {
   background-position: 50%;
@@ -200,7 +201,7 @@ img {
   visibility: visible;
 }
 .creative-photography--slider .creative-photography--sidebar {
-  width: 100px;
+  width: 4rem;
   position: absolute;
   top: 0;
   bottom: 0;

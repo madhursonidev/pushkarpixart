@@ -9,7 +9,7 @@ const teamMembers = [
     name: "Pushkar Soni",
     role: "Lead Photographer",
     image:
-      "https://scontent.fbom38-1.fna.fbcdn.net/v/t39.30808-6/449398493_991352379669760_7022693162507758414_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=k0f_JjQKrpkQ7kNvgEcssdX&_nc_zt=23&_nc_ht=scontent.fbom38-1.fna&_nc_gid=A-98nQEOuv-7I4zyDykYgER&oh=00_AYAIpsYqTLEg9rdoNAYgyWuc54qMzcfZLy7jEox6WxVdFg&oe=676E1B8A",
+      "https://res.cloudinary.com/dkdikjjtx/image/upload/v1735196152/449398493_991352379669760_7022693162507758414_n2_ikszlg.jpg",
     specialty: "Photography",
     description:
       "Alice specializes in capturing breathtaking landscapes and intimate portraits that tell a story.",
